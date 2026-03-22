@@ -1,5 +1,5 @@
 import { motion } from "motion/react";
-import { Mail, Phone, MapPin, Download } from "lucide-react";
+import { Mail, Phone, MapPin } from "lucide-react";
 
 export default function Hero() {
   return (
@@ -33,12 +33,6 @@ export default function Hero() {
             <Mail size={18} />
             Contact Me
           </a>
-          <button 
-            className="border-2 border-navy-900 text-navy-900 px-8 py-3 rounded-lg font-medium hover:bg-navy-50 transition-colors flex items-center gap-2"
-          >
-            <Download size={18} />
-            Download CV
-          </button>
         </div>
 
         <div className="mt-10 flex flex-col gap-3 text-slate-500">
